@@ -1,5 +1,8 @@
 node {
     stage('first') {
-        sh "file.sh"
+        dir('folder') {
+            sh "./file.sh"
+        }
+        
     }
 }
