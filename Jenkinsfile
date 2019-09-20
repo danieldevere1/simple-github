@@ -1,8 +1,5 @@
-node {
+pipeline {
     stage('first') {
-        dir('folder') {
-            sh "./file.sh"
-        }
-        
+        echo("hello world")
     }
 }
