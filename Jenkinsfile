@@ -1,3 +1,5 @@
-pipeline {
-    sh "echo hello world"
+node {
+    stage('first') {
+        echo "hello world"
+    }
 }
