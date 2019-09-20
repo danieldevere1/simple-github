@@ -1,5 +1,5 @@
 node {
     stage('first') {
-        sh "./file.sh"
+        sh "ls"
     }
 }
